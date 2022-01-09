@@ -33,7 +33,8 @@ Test ：2018-02-28 - 2018-09-30
 3rd.：0.133 ( Rule Based ) / 0(Collaborative Filtering by surprise package) / 0.133(CF + Rule Based)
 4th.：0.1149 ( Rule Based ) / 0.0009(Collaborative Filtering by surprise package) / 0.11437(CF + Rule Based)
 
-總結
+總結：
+
 1.本週加入內容的推薦方式，Recall效果並沒有因此增加，原因與作業二一樣，測試集九月分中584人中僅有38人用戶有出現在訓練集中，而且也沒因為出現在訓練集中成功推薦給他，因此38人中對於內容推薦是都沒有命中測試集的購買清單。
 
 2.本次則多增加切割測試/訓練資料，觀察測試資料中的使用者是否出現在訓練資料中，並挑選其中較多使用者重複出現的情況下再進行推薦。
