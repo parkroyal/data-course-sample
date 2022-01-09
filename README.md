@@ -20,18 +20,23 @@ rating 刪除完全重複資料
 不足部分以作業1之rule-based推薦產品補足
 
 推薦邏輯
-1) User-based Collaborative Filtering
-2) Item-based Collaborative Filtering
+
+1) User-based Collaborative Filtering \
+2) Item-based Collaborative Filtering \
 3) Collaborative Filtering by surprise package
 4) 拉長測試、訓練集時間，觀察CF是否有成功推薦。
 Train ：2017-07-01 - 2018-02-28
 Test ：2018-02-28 - 2018-09-30
 
 推薦結果
-1st.：0.133 ( Rule Based ) / 0(User-based Collaborative Filtering) / 0.133(CF + Rule Based)
-2nd.：0.133 ( Rule Based ) / 0(Item-based Collaborative Filtering) / 0.133(CF + Rule Based)
-3rd.：0.133 ( Rule Based ) / 0(Collaborative Filtering by surprise package) / 0.133(CF + Rule Based)
-4th.：0.1149 ( Rule Based ) / 0.0009(Collaborative Filtering by surprise package) / 0.11437(CF + Rule Based)
+
+1st.：0.133 ( Rule Based ) / 0(User-based Collaborative Filtering) / 0.133(CF + Rule Based)\
+
+2nd.：0.133 ( Rule Based ) / 0(Item-based Collaborative Filtering) / 0.133(CF + Rule Based)\
+
+3rd.：0.133 ( Rule Based ) / 0(Collaborative Filtering by surprise package) / 0.133(CF + Rule Based)\
+
+4th.：0.1149 ( Rule Based ) / 0.0009(Collaborative Filtering by surprise package) / 0.11437(CF + Rule Based)\
 
 總結：
 
